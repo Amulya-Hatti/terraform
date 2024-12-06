@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/shashankhl-sigmoid/Terraform_assignment.git'
+                git branch: 'main', url: 'https://github.com/Amulya-Hatti/terraform.git'
             }
         }
 
